@@ -1,0 +1,69 @@
+.icon_1 {
+float:left;
+list-style:none;
+margin:70px;
+
+
+}
+
+.icon_2{
+float:left;
+list-style:none;
+margin:70px;
+
+}
+
+.icon_3{
+float:left;
+list-style:none;
+margin:70px;
+}
+
+.icon_4{
+float:left;
+list-style:none;
+margin:70px;
+
+}
+
+
+.icon_5{
+float:left;
+list-style:none;
+margin:70px;
+}
+
+.icon_6{
+float:left;
+list-style:none;
+margin:70px;
+}
+
+.icon_7{
+float:left;
+list-style:none;
+margin:70px;
+}
+.icon_8{
+float:left;
+list-style:none;
+margin:70px;
+}
+
+body{
+	text-align: center;
+	padding-right:0px;
+	margin-right:0px;
+
+}
+
+
+header{
+
+	background-color:black;
+}
+
+header >h1{
+
+color:white;
+}

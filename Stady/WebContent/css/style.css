@@ -1,0 +1,168 @@
+.logo {
+	text-align: center;
+	margin: 0;
+}
+
+.logo img{
+		color:#ff6600;
+}
+
+article {
+	text-align: center;
+	line-height: 1.8;
+	background-color:#ff6600;
+
+}
+
+.flow {
+	text-align: center;
+}
+
+.info {
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+
+}
+
+.info > img{
+		margin-bottom:50px;
+	margin-top:20px;
+}
+footer {
+	text-align: center;
+}
+
+section {
+	text-align: center;
+}
+
+
+h3{
+		text-align: center;
+}
+#menu {
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	boder-left:ipx solid #000000;
+	border: 1px solid #00000;
+	background-color: #ffffff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+
+#menu #menu_inner {
+	width: 720px;
+	margin-right: auto;
+	border: 1px solid #000000;
+	border-left-width: 1px colid rgb(0, 0, 0);
+	margin: auto;
+	text-align: center;
+}
+
+#menu #menu_inner li {
+	list-style-image: none;
+	list-style-type: none;
+	width: 179px;
+	float: left;
+	border-right: ipx solid #00000;
+}
+
+#menu #menu_inner li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-decoration-line: none;
+	text-decoration-style: initial;
+	text-decoration-color: initial;
+	color: #000000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 24px;
+	font-size: 18px;
+	font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+}
+
+.fcr {
+	clear: both;
+	float: none;
+}
+
+.cp_cssslider {
+	width: 3000px;
+	height: 200px;
+	overflow: hidden;
+	margin: 2em auto;
+	border: 10px solid #ffffff;
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.cp_slide_item {
+	width: 300px;
+	height: 200px;
+	float: left;
+	position: relative;
+}
+.cp_slidewrapper {
+	width: 500%;/* slide‚Ì–‡”~100% */
+	position: relative;
+	left: 0;
+	animation: slider 20s infinite ease;/* ƒXƒs[ƒh */
+}
+@-webkit-keyframes slider {
+	/* 100%‚ğ–‡”‚ÅŠ„‚Á‚½%‚ÉŠ„‚èU‚é */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	20% {
+	-webkit-transform: translateX(-300px);
+	transform: translateX(-300px);
+	}
+	40% {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+	}
+	60% {
+	-webkit-transform: translateX(-900px);
+	transform: translateX(-900px);
+	}
+	80% {
+	-webkit-transform: translateX(-1200px);
+	transform: translateX(-1200px);
+	}
+	100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+}
+@keyframes slider {
+	/* 100%‚ğ–‡”‚ÅŠ„‚Á‚½%‚ÉŠ„‚èU‚é */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	20% {
+	-webkit-transform: translateX(-300px);
+	transform: translateX(-300px);
+	}
+	40% {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+	}
+	60% {
+	-webkit-transform: translateX(-900px);
+	transform: translateX(-900px);
+	}
+	80% {
+	-webkit-transform: translateX(-1200px);
+	transform: translateX(-1200px);
+	}
+	100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+}
+
